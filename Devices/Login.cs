@@ -24,7 +24,7 @@ namespace Devices_Store
         {
             InitializeComponent();
             cn = new SqlConnection(dbcon.myConnection());
-            txtName.Focus();
+            txtName.Select();
         }
 
        

@@ -23,6 +23,8 @@ namespace Devices_Store
             InitializeComponent();
             cn = new SqlConnection(dbcon.myConnection());        
             cancelOrder = cancel;
+            txtUsername.Select();
+
         }
 
         private void btnVoid_Click(object sender, EventArgs e)

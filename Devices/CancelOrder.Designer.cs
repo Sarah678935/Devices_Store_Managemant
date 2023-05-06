@@ -77,6 +77,7 @@ namespace Devices_Store
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(894, 50);
             panel1.TabIndex = 9;
+            panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // picClose
             // 

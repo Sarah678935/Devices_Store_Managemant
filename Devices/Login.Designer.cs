@@ -49,7 +49,7 @@ namespace Devices_Store
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(113, 201);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(233, 29);
+            this.label2.Size = new System.Drawing.Size(279, 36);
             this.label2.TabIndex = 11;
             this.label2.Text = "Please Login First";
             // 
@@ -60,7 +60,8 @@ namespace Devices_Store
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(190)))), ((int)(((byte)(0)))));
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
+            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.Snow;
             this.btnLogin.Location = new System.Drawing.Point(93, 405);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(268, 31);
@@ -178,19 +179,19 @@ namespace Devices_Store
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::POSales.Properties.Resources.windows_10_store_512px2;
-            this.pictureBox1.Location = new System.Drawing.Point(116, 140);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(163, 189);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(418, 367);
+            this.pictureBox1.Size = new System.Drawing.Size(376, 290);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(190)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(950, 650);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);

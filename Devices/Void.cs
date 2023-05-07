@@ -52,31 +52,10 @@ namespace Devices_Store
                     cn.Close();
                     SaveCancelOrder(user);
 
-                    if (cancelOrder.cboInventory.Text == "yes")
-                    {
-                        int cancelQty = int.Parse(cancelOrder.txtQty.Text);
-                        string pcode = cancelOrder.txtPcode.Text;
+                    
 
-                        // Update the tbProduct table
-                        cn.Open();
-                        cm = new SqlCommand("UPDATE tbProduct SET qty = qty + @cancelQty WHERE pcode = @pcode", cn);
-                        cm.Parameters.AddWithValue("@cancelQty", cancelQty);
-                        cm.Parameters.AddWithValue("@pcode", pcode);
-                        int rowsAffected = cm.ExecuteNonQuery();
-                        cn.Close();
-
-                        if (rowsAffected > 0)
-                        {
-                            MessageBox.Show("Product quantity updated successfully.", "Update Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                        else
-                        {
-                            MessageBox.Show("Product not found or quantity not updated.", "Update Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        }
-                    }
-
-                    // Delete the canceled order from tbCart table
-                    string canceledOrderId = cancelOrder.txtId.Text;
+                // Delete the canceled order from tbCart table
+                string canceledOrderId = cancelOrder.txtId.Text;
                     cn.Open();
                     cm = new SqlCommand("DELETE FROM tbCart WHERE id = @canceledOrderId", cn);
                     cm.Parameters.AddWithValue("@canceledOrderId", canceledOrderId);

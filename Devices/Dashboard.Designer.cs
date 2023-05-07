@@ -120,7 +120,7 @@ namespace Devices_Store
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(68, 37);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(118, 20);
+            this.label11.Size = new System.Drawing.Size(150, 22);
             this.label11.TabIndex = 1;
             this.label11.Text = "Stock On Hand";
             // 
@@ -181,7 +181,7 @@ namespace Devices_Store
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(68, 37);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(103, 20);
+            this.label8.Size = new System.Drawing.Size(125, 22);
             this.label8.TabIndex = 1;
             this.label8.Text = "Critical Items";
             // 
@@ -242,7 +242,7 @@ namespace Devices_Store
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(68, 37);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.Size = new System.Drawing.Size(131, 22);
             this.label5.TabIndex = 1;
             this.label5.Text = "Total Product";
             // 
@@ -303,7 +303,7 @@ namespace Devices_Store
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(68, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 20);
+            this.label1.Size = new System.Drawing.Size(103, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Daily Sales";
             // 
@@ -336,7 +336,7 @@ namespace Devices_Store
             // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(968, 582);
@@ -345,6 +345,7 @@ namespace Devices_Store
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Dashboard";
             this.Text = "DASHBOARD";

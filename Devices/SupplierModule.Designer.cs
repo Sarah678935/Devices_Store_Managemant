@@ -88,7 +88,7 @@ namespace Devices_Store
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(31, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 20);
+            this.label2.Size = new System.Drawing.Size(147, 22);
             this.label2.TabIndex = 23;
             this.label2.Text = "Supplier Name:";
             // 
@@ -121,7 +121,7 @@ namespace Devices_Store
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(3, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 18);
+            this.label1.Size = new System.Drawing.Size(160, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Supplier Module";
             // 
@@ -144,7 +144,7 @@ namespace Devices_Store
             // 
             this.txtSupplier.Location = new System.Drawing.Point(189, 84);
             this.txtSupplier.Name = "txtSupplier";
-            this.txtSupplier.Size = new System.Drawing.Size(565, 26);
+            this.txtSupplier.Size = new System.Drawing.Size(565, 30);
             this.txtSupplier.TabIndex = 31;
             // 
             // label3
@@ -152,7 +152,7 @@ namespace Devices_Store
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(31, 130);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 20);
+            this.label3.Size = new System.Drawing.Size(93, 22);
             this.label3.TabIndex = 23;
             this.label3.Text = "Address :";
             // 
@@ -161,7 +161,7 @@ namespace Devices_Store
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(31, 181);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 20);
+            this.label4.Size = new System.Drawing.Size(163, 22);
             this.label4.TabIndex = 23;
             this.label4.Text = "Contact Person :";
             // 
@@ -170,7 +170,7 @@ namespace Devices_Store
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(31, 229);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 20);
+            this.label5.Size = new System.Drawing.Size(110, 22);
             this.label5.TabIndex = 23;
             this.label5.Text = "Phone No :";
             // 
@@ -179,7 +179,7 @@ namespace Devices_Store
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(31, 279);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 20);
+            this.label6.Size = new System.Drawing.Size(150, 22);
             this.label6.TabIndex = 23;
             this.label6.Text = "E-mail Address :";
             // 
@@ -188,7 +188,7 @@ namespace Devices_Store
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(431, 232);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 20);
+            this.label7.Size = new System.Drawing.Size(82, 22);
             this.label7.TabIndex = 23;
             this.label7.Text = "Fax No :";
             // 
@@ -196,35 +196,35 @@ namespace Devices_Store
             // 
             this.txtAddress.Location = new System.Drawing.Point(189, 127);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(565, 26);
+            this.txtAddress.Size = new System.Drawing.Size(565, 30);
             this.txtAddress.TabIndex = 31;
             // 
             // txtConPerson
             // 
             this.txtConPerson.Location = new System.Drawing.Point(189, 178);
             this.txtConPerson.Name = "txtConPerson";
-            this.txtConPerson.Size = new System.Drawing.Size(565, 26);
+            this.txtConPerson.Size = new System.Drawing.Size(565, 30);
             this.txtConPerson.TabIndex = 31;
             // 
             // txtPhone
             // 
             this.txtPhone.Location = new System.Drawing.Point(189, 226);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(217, 26);
+            this.txtPhone.Size = new System.Drawing.Size(217, 30);
             this.txtPhone.TabIndex = 31;
             // 
             // txtFaxNo
             // 
             this.txtFaxNo.Location = new System.Drawing.Point(537, 226);
             this.txtFaxNo.Name = "txtFaxNo";
-            this.txtFaxNo.Size = new System.Drawing.Size(217, 26);
+            this.txtFaxNo.Size = new System.Drawing.Size(217, 30);
             this.txtFaxNo.TabIndex = 31;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(189, 279);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(565, 26);
+            this.txtEmail.Size = new System.Drawing.Size(565, 30);
             this.txtEmail.TabIndex = 31;
             // 
             // lblId
@@ -233,14 +233,14 @@ namespace Devices_Store
             this.lblId.AutoSize = true;
             this.lblId.Location = new System.Drawing.Point(31, 372);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(22, 20);
+            this.lblId.Size = new System.Drawing.Size(26, 22);
             this.lblId.TabIndex = 32;
             this.lblId.Text = "id";
             this.lblId.Visible = false;
             // 
             // SupplierModule
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(792, 401);
@@ -263,6 +263,7 @@ namespace Devices_Store
             this.Controls.Add(this.btnUpdate);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SupplierModule";

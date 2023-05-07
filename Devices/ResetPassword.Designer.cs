@@ -29,6 +29,7 @@ namespace Devices_Store
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResetPassword));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtResPass = new System.Windows.Forms.TextBox();
@@ -42,7 +43,7 @@ namespace Devices_Store
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(11, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 17);
+            this.label1.Size = new System.Drawing.Size(138, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "New password:";
             // 
@@ -51,7 +52,7 @@ namespace Devices_Store
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(11, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(162, 17);
+            this.label2.Size = new System.Drawing.Size(203, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "Confirm new password:";
             // 
@@ -59,7 +60,7 @@ namespace Devices_Store
             // 
             this.txtResPass.Location = new System.Drawing.Point(178, 48);
             this.txtResPass.Name = "txtResPass";
-            this.txtResPass.Size = new System.Drawing.Size(233, 23);
+            this.txtResPass.Size = new System.Drawing.Size(233, 27);
             this.txtResPass.TabIndex = 1;
             this.txtResPass.UseSystemPasswordChar = true;
             // 
@@ -67,7 +68,7 @@ namespace Devices_Store
             // 
             this.txtNpass.Location = new System.Drawing.Point(178, 15);
             this.txtNpass.Name = "txtNpass";
-            this.txtNpass.Size = new System.Drawing.Size(233, 23);
+            this.txtNpass.Size = new System.Drawing.Size(233, 27);
             this.txtNpass.TabIndex = 1;
             this.txtNpass.UseSystemPasswordChar = true;
             // 
@@ -101,7 +102,7 @@ namespace Devices_Store
             // 
             // ResetPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(421, 129);
             this.Controls.Add(this.btnCancel);
@@ -112,6 +113,7 @@ namespace Devices_Store
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;

@@ -99,7 +99,7 @@ namespace Devices_Store
             this.btnLogout.Location = new System.Drawing.Point(0, 845);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnLogout.Size = new System.Drawing.Size(183, 45);
+            this.btnLogout.Size = new System.Drawing.Size(179, 45);
             this.btnLogout.TabIndex = 9;
             this.btnLogout.Text = "Logout";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -114,7 +114,7 @@ namespace Devices_Store
             this.panelSubSetting.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubSetting.Location = new System.Drawing.Point(0, 755);
             this.panelSubSetting.Name = "panelSubSetting";
-            this.panelSubSetting.Size = new System.Drawing.Size(183, 90);
+            this.panelSubSetting.Size = new System.Drawing.Size(179, 90);
             this.panelSubSetting.TabIndex = 8;
             // 
             // btnStore
@@ -127,7 +127,7 @@ namespace Devices_Store
             this.btnStore.Location = new System.Drawing.Point(0, 45);
             this.btnStore.Name = "btnStore";
             this.btnStore.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnStore.Size = new System.Drawing.Size(183, 45);
+            this.btnStore.Size = new System.Drawing.Size(179, 45);
             this.btnStore.TabIndex = 5;
             this.btnStore.Text = "Store";
             this.btnStore.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -144,7 +144,7 @@ namespace Devices_Store
             this.btnUser.Location = new System.Drawing.Point(0, 0);
             this.btnUser.Name = "btnUser";
             this.btnUser.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnUser.Size = new System.Drawing.Size(183, 45);
+            this.btnUser.Size = new System.Drawing.Size(179, 45);
             this.btnUser.TabIndex = 4;
             this.btnUser.Text = "User";
             this.btnUser.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -160,7 +160,7 @@ namespace Devices_Store
             this.btnSetting.Location = new System.Drawing.Point(0, 710);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnSetting.Size = new System.Drawing.Size(183, 45);
+            this.btnSetting.Size = new System.Drawing.Size(179, 45);
             this.btnSetting.TabIndex = 7;
             this.btnSetting.Text = "Setting";
             this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -175,7 +175,7 @@ namespace Devices_Store
             this.panelSubRecord.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubRecord.Location = new System.Drawing.Point(0, 620);
             this.panelSubRecord.Name = "panelSubRecord";
-            this.panelSubRecord.Size = new System.Drawing.Size(183, 90);
+            this.panelSubRecord.Size = new System.Drawing.Size(179, 90);
             this.panelSubRecord.TabIndex = 6;
             // 
             // btnPosRecord
@@ -188,7 +188,7 @@ namespace Devices_Store
             this.btnPosRecord.Location = new System.Drawing.Point(0, 45);
             this.btnPosRecord.Name = "btnPosRecord";
             this.btnPosRecord.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnPosRecord.Size = new System.Drawing.Size(183, 45);
+            this.btnPosRecord.Size = new System.Drawing.Size(179, 45);
             this.btnPosRecord.TabIndex = 5;
             this.btnPosRecord.Text = "POS Record";
             this.btnPosRecord.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,7 +205,7 @@ namespace Devices_Store
             this.btnSaleHist.Location = new System.Drawing.Point(0, 0);
             this.btnSaleHist.Name = "btnSaleHist";
             this.btnSaleHist.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnSaleHist.Size = new System.Drawing.Size(183, 45);
+            this.btnSaleHist.Size = new System.Drawing.Size(179, 45);
             this.btnSaleHist.TabIndex = 4;
             this.btnSaleHist.Text = "Sale History";
             this.btnSaleHist.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -221,7 +221,7 @@ namespace Devices_Store
             this.btnRecord.Location = new System.Drawing.Point(0, 575);
             this.btnRecord.Name = "btnRecord";
             this.btnRecord.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnRecord.Size = new System.Drawing.Size(183, 45);
+            this.btnRecord.Size = new System.Drawing.Size(179, 45);
             this.btnRecord.TabIndex = 5;
             this.btnRecord.Text = "Record";
             this.btnRecord.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -237,7 +237,7 @@ namespace Devices_Store
             this.btnSupplier.Location = new System.Drawing.Point(0, 530);
             this.btnSupplier.Name = "btnSupplier";
             this.btnSupplier.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnSupplier.Size = new System.Drawing.Size(183, 45);
+            this.btnSupplier.Size = new System.Drawing.Size(179, 45);
             this.btnSupplier.TabIndex = 4;
             this.btnSupplier.Text = "Supplier";
             this.btnSupplier.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -252,7 +252,7 @@ namespace Devices_Store
             this.panelSubStock.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubStock.Location = new System.Drawing.Point(0, 440);
             this.panelSubStock.Name = "panelSubStock";
-            this.panelSubStock.Size = new System.Drawing.Size(183, 90);
+            this.panelSubStock.Size = new System.Drawing.Size(179, 90);
             this.panelSubStock.TabIndex = 0;
             // 
             // btnStockAdjustment
@@ -265,7 +265,7 @@ namespace Devices_Store
             this.btnStockAdjustment.Location = new System.Drawing.Point(0, 45);
             this.btnStockAdjustment.Name = "btnStockAdjustment";
             this.btnStockAdjustment.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnStockAdjustment.Size = new System.Drawing.Size(183, 45);
+            this.btnStockAdjustment.Size = new System.Drawing.Size(179, 45);
             this.btnStockAdjustment.TabIndex = 5;
             this.btnStockAdjustment.Text = "Stock Adjustment";
             this.btnStockAdjustment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -282,7 +282,7 @@ namespace Devices_Store
             this.btnStockEntry.Location = new System.Drawing.Point(0, 0);
             this.btnStockEntry.Name = "btnStockEntry";
             this.btnStockEntry.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnStockEntry.Size = new System.Drawing.Size(183, 45);
+            this.btnStockEntry.Size = new System.Drawing.Size(179, 45);
             this.btnStockEntry.TabIndex = 4;
             this.btnStockEntry.Text = "Stock Entry";
             this.btnStockEntry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,7 +298,7 @@ namespace Devices_Store
             this.btnInStock.Location = new System.Drawing.Point(0, 395);
             this.btnInStock.Name = "btnInStock";
             this.btnInStock.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnInStock.Size = new System.Drawing.Size(183, 45);
+            this.btnInStock.Size = new System.Drawing.Size(179, 45);
             this.btnInStock.TabIndex = 3;
             this.btnInStock.Text = "In Stock";
             this.btnInStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -314,7 +314,7 @@ namespace Devices_Store
             this.panelSubProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubProduct.Location = new System.Drawing.Point(0, 260);
             this.panelSubProduct.Name = "panelSubProduct";
-            this.panelSubProduct.Size = new System.Drawing.Size(183, 135);
+            this.panelSubProduct.Size = new System.Drawing.Size(179, 135);
             this.panelSubProduct.TabIndex = 0;
             // 
             // btnBrand
@@ -327,7 +327,7 @@ namespace Devices_Store
             this.btnBrand.Location = new System.Drawing.Point(0, 91);
             this.btnBrand.Name = "btnBrand";
             this.btnBrand.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnBrand.Size = new System.Drawing.Size(183, 45);
+            this.btnBrand.Size = new System.Drawing.Size(179, 45);
             this.btnBrand.TabIndex = 5;
             this.btnBrand.Text = "Brand";
             this.btnBrand.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -344,7 +344,7 @@ namespace Devices_Store
             this.btnCategory.Location = new System.Drawing.Point(0, 46);
             this.btnCategory.Name = "btnCategory";
             this.btnCategory.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnCategory.Size = new System.Drawing.Size(183, 45);
+            this.btnCategory.Size = new System.Drawing.Size(179, 45);
             this.btnCategory.TabIndex = 4;
             this.btnCategory.Text = "Category";
             this.btnCategory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -361,7 +361,7 @@ namespace Devices_Store
             this.btnProductList.Location = new System.Drawing.Point(0, 0);
             this.btnProductList.Name = "btnProductList";
             this.btnProductList.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnProductList.Size = new System.Drawing.Size(183, 46);
+            this.btnProductList.Size = new System.Drawing.Size(179, 46);
             this.btnProductList.TabIndex = 3;
             this.btnProductList.Text = "Product List";
             this.btnProductList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -377,7 +377,7 @@ namespace Devices_Store
             this.btnProduct.Location = new System.Drawing.Point(0, 215);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnProduct.Size = new System.Drawing.Size(183, 45);
+            this.btnProduct.Size = new System.Drawing.Size(179, 45);
             this.btnProduct.TabIndex = 2;
             this.btnProduct.Text = "Product";
             this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -393,7 +393,7 @@ namespace Devices_Store
             this.btnDashboard.Location = new System.Drawing.Point(0, 170);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(183, 45);
+            this.btnDashboard.Size = new System.Drawing.Size(179, 45);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -410,7 +410,7 @@ namespace Devices_Store
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(183, 170);
+            this.panelLogo.Size = new System.Drawing.Size(179, 170);
             this.panelLogo.TabIndex = 1;
             // 
             // lblName
@@ -419,7 +419,7 @@ namespace Devices_Store
             this.lblName.ForeColor = System.Drawing.Color.White;
             this.lblName.Location = new System.Drawing.Point(5, 97);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(25, 20);
+            this.lblName.Size = new System.Drawing.Size(31, 22);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Ln";
             this.lblName.Visible = false;
@@ -430,7 +430,7 @@ namespace Devices_Store
             this.lblUsername.ForeColor = System.Drawing.Color.White;
             this.lblUsername.Location = new System.Drawing.Point(52, 115);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(85, 20);
+            this.lblUsername.Size = new System.Drawing.Size(103, 22);
             this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "UserName";
             // 
@@ -440,7 +440,7 @@ namespace Devices_Store
             this.lblRole.ForeColor = System.Drawing.Color.White;
             this.lblRole.Location = new System.Drawing.Point(42, 145);
             this.lblRole.Name = "lblRole";
-            this.lblRole.Size = new System.Drawing.Size(104, 20);
+            this.lblRole.Size = new System.Drawing.Size(131, 22);
             this.lblRole.TabIndex = 0;
             this.lblRole.Text = "Administrator";
             // 
@@ -486,7 +486,7 @@ namespace Devices_Store
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1184, 661);
@@ -495,6 +495,7 @@ namespace Devices_Store
             this.Controls.Add(this.panelSlide);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimumSize = new System.Drawing.Size(1200, 700);
             this.Name = "MainForm";

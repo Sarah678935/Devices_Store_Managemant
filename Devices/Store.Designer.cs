@@ -70,7 +70,7 @@ namespace Devices_Store
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(50, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 20);
+            this.label2.Size = new System.Drawing.Size(127, 22);
             this.label2.TabIndex = 6;
             this.label2.Text = "Store Name :";
             // 
@@ -79,7 +79,7 @@ namespace Devices_Store
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(50, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 20);
+            this.label3.Size = new System.Drawing.Size(93, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "Address :";
             // 
@@ -87,14 +87,14 @@ namespace Devices_Store
             // 
             this.txtStName.Location = new System.Drawing.Point(169, 35);
             this.txtStName.Name = "txtStName";
-            this.txtStName.Size = new System.Drawing.Size(473, 26);
+            this.txtStName.Size = new System.Drawing.Size(473, 30);
             this.txtStName.TabIndex = 7;
             // 
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(169, 74);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(473, 26);
+            this.txtAddress.Size = new System.Drawing.Size(473, 30);
             this.txtAddress.TabIndex = 7;
             // 
             // btnSave
@@ -129,7 +129,7 @@ namespace Devices_Store
             // 
             // Store
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(708, 221);
@@ -143,6 +143,7 @@ namespace Devices_Store
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Store";

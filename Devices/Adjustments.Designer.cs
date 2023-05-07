@@ -171,7 +171,7 @@ namespace Devices_Store
             this.txtRemark.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtRemark.Location = new System.Drawing.Point(716, 106);
             this.txtRemark.Name = "txtRemark";
-            this.txtRemark.Size = new System.Drawing.Size(307, 26);
+            this.txtRemark.Size = new System.Drawing.Size(307, 30);
             this.txtRemark.TabIndex = 5;
             // 
             // txtQty
@@ -179,7 +179,7 @@ namespace Devices_Store
             this.txtQty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtQty.Location = new System.Drawing.Point(716, 66);
             this.txtQty.Name = "txtQty";
-            this.txtQty.Size = new System.Drawing.Size(307, 26);
+            this.txtQty.Size = new System.Drawing.Size(307, 30);
             this.txtQty.TabIndex = 4;
             // 
             // cbAction
@@ -191,7 +191,7 @@ namespace Devices_Store
             "Add To Inventory"});
             this.cbAction.Location = new System.Drawing.Point(716, 26);
             this.cbAction.Name = "cbAction";
-            this.cbAction.Size = new System.Drawing.Size(307, 28);
+            this.cbAction.Size = new System.Drawing.Size(307, 30);
             this.cbAction.TabIndex = 3;
             // 
             // label3
@@ -199,7 +199,7 @@ namespace Devices_Store
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 106);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 20);
+            this.label3.Size = new System.Drawing.Size(121, 22);
             this.label3.TabIndex = 2;
             this.label3.Text = "Description :";
             // 
@@ -209,7 +209,7 @@ namespace Devices_Store
             this.lblDesc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDesc.Location = new System.Drawing.Point(138, 106);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(112, 20);
+            this.lblDesc.Size = new System.Drawing.Size(139, 22);
             this.lblDesc.TabIndex = 2;
             this.lblDesc.Text = "Product detail";
             // 
@@ -219,7 +219,7 @@ namespace Devices_Store
             this.lblPcode.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPcode.Location = new System.Drawing.Point(357, 66);
             this.lblPcode.Name = "lblPcode";
-            this.lblPcode.Size = new System.Drawing.Size(111, 20);
+            this.lblPcode.Size = new System.Drawing.Size(137, 22);
             this.lblPcode.TabIndex = 2;
             this.lblPcode.Text = "Product code";
             // 
@@ -229,7 +229,7 @@ namespace Devices_Store
             this.lblRefNo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRefNo.Location = new System.Drawing.Point(138, 66);
             this.lblRefNo.Name = "lblRefNo";
-            this.lblRefNo.Size = new System.Drawing.Size(54, 20);
+            this.lblRefNo.Size = new System.Drawing.Size(66, 22);
             this.lblRefNo.TabIndex = 2;
             this.lblRefNo.Text = "RefNo";
             // 
@@ -239,7 +239,7 @@ namespace Devices_Store
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(616, 109);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 20);
+            this.label7.Size = new System.Drawing.Size(97, 22);
             this.label7.TabIndex = 2;
             this.label7.Text = "Remarks :";
             // 
@@ -249,7 +249,7 @@ namespace Devices_Store
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(616, 69);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 20);
+            this.label6.Size = new System.Drawing.Size(55, 22);
             this.label6.TabIndex = 2;
             this.label6.Text = "Qty :";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -260,7 +260,7 @@ namespace Devices_Store
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(616, 29);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 20);
+            this.label5.Size = new System.Drawing.Size(81, 22);
             this.label5.TabIndex = 2;
             this.label5.Text = "Action :";
             // 
@@ -269,7 +269,7 @@ namespace Devices_Store
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(285, 66);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 20);
+            this.label4.Size = new System.Drawing.Size(80, 22);
             this.label4.TabIndex = 2;
             this.label4.Text = "Pcode :";
             // 
@@ -278,7 +278,7 @@ namespace Devices_Store
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 20);
+            this.label2.Size = new System.Drawing.Size(147, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Reference No :";
             // 
@@ -287,7 +287,7 @@ namespace Devices_Store
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(56, 26);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(85, 20);
+            this.lblUsername.Size = new System.Drawing.Size(103, 22);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "UserName";
             // 
@@ -331,6 +331,7 @@ namespace Devices_Store
             this.dgvAdjustment.Location = new System.Drawing.Point(0, 145);
             this.dgvAdjustment.Name = "dgvAdjustment";
             this.dgvAdjustment.RowHeadersVisible = false;
+            this.dgvAdjustment.RowHeadersWidth = 51;
             this.dgvAdjustment.Size = new System.Drawing.Size(1035, 367);
             this.dgvAdjustment.TabIndex = 6;
             this.dgvAdjustment.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAdjustment_CellContentClick);
@@ -339,68 +340,77 @@ namespace Devices_Store
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "No";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 63;
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Pcode";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 81;
+            this.Column2.Width = 97;
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column3.HeaderText = "Barcode";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
-            this.Column3.Width = 96;
+            this.Column3.Width = 116;
             // 
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column4.HeaderText = "Description";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column5.HeaderText = "Brand";
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
-            this.Column5.Width = 75;
+            this.Column5.Width = 92;
             // 
             // Column6
             // 
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column6.HeaderText = "Category";
+            this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
-            this.Column6.Width = 102;
+            this.Column6.Width = 126;
             // 
             // Column7
             // 
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column7.HeaderText = "Price";
+            this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
-            this.Column7.Width = 69;
+            this.Column7.Width = 81;
             // 
             // Column8
             // 
             this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column8.HeaderText = "Stock On Hand";
+            this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
-            this.Column8.Width = 141;
+            this.Column8.Width = 177;
             // 
             // Select
             // 
             this.Select.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Select.HeaderText = "";
             this.Select.Image = ((System.Drawing.Image)(resources.GetObject("Select.Image")));
+            this.Select.MinimumWidth = 6;
             this.Select.Name = "Select";
-            this.Select.Width = 5;
+            this.Select.Width = 6;
             // 
             // Adjustments
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1035, 569);
@@ -409,6 +419,7 @@ namespace Devices_Store
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Adjustments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
